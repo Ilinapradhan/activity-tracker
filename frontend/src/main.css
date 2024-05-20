@@ -1,0 +1,6 @@
+#timeTable{
+    width: 70%;
+    border: 1px solid black;
+    
+}
+tr:nth-child(even){background-color: aqua;}
