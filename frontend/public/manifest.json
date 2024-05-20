@@ -1,0 +1,22 @@
+{
+  "name" : "activity tracker",
+  "description" : "A device that tracks physical activity.",
+  "version": "1.0",
+  "manifest_version" : 3,
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title":"Activity Tracker",
+    "default_popup": "index.html",
+    "default_icon" : "icon.png"
+  },
+  "permissions" :["activeTab" , "declarativeContent", "storage","tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+  
+}
